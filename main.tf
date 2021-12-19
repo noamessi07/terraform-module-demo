@@ -16,5 +16,5 @@ resource "aws_instance" "myserver" {
     ami               = "ami-0ed9277fb7eb570c9"
     instance_type     = "t2.micro"
     availability_zone = "us-east-1a"
-    key_name          = "terra2"
+    key_name          = "terra"
 }
